@@ -1,4 +1,4 @@
-var friendsArr = [
+var friendsArray = [
 {
     name:"Maria",
     photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
@@ -15,3 +15,5 @@ var friendsArr = [
     scores:[5, 4, 2, 2, 4, 3, 1, 1, 3, 2]
 },
 ];
+
+module.exports = friendsArray
