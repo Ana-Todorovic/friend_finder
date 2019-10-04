@@ -8,3 +8,7 @@ module.exports = function(app) {
         console.log(req.body.scores);
     });
 };
+app.get("/", function(req, res) {
+    res.json(path.join(__dirname, "public/survey.html"));
+  });
+  
