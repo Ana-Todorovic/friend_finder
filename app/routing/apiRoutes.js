@@ -7,9 +7,9 @@ module.exports = function(app) {
     app.post("/api/friends", function(req, res) {
         console.log(req.body.scores);
     });
-    app.get("/", function(req, res) {
-        res.json(path.join(__dirname, "index.html"));
-    });
+    // app.get("/", function(req, res) {
+    //     res.json(path.join(__dirname, "index.html"));
+    // });
 };
 
   
